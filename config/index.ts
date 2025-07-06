@@ -51,6 +51,14 @@ export const SOCIALS = [
 
 export const PROJECTS: Project[] = [
     {
+        title: "Dev Portfolio",
+        description: "My own personal portfolio website.",
+        href: "https://www.arifazfar.com/",
+        tags: ["Next.js", "Tailwind CSS", "Typescript", "shadcn/ui", "Vercel"],
+        github: 'https://github.com/arifazfar99/dev-portfolio-nextjs',
+        featured: true
+    },
+    {
         title: "Track My Gaji",
         description: "Calculate your net pay after all standard Malaysian deductions. You can also track your monthly commitments and see how much balance you have left.",
         href: "https://track-my-gaji.arifazfar.com/",
