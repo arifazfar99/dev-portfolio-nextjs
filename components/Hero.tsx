@@ -20,7 +20,7 @@ const Hero = () => {
         developer creating modern web apps.
       </h1>
       <p className="mt-5 max-w-prose text-muted-foreground sm:text-lg">
-        A frontend developer based in the Malaysia. I am passionate about
+        A fullstack developer based in the Malaysia. I am passionate about
         building modern web applications using Next.js, React, and Tailwind CSS.
       </p>
     </MaxWidthWrapper>
