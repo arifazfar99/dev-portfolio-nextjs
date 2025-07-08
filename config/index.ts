@@ -68,6 +68,17 @@ export const PROJECTS: Project[] = [
     },
 ]
 
+export const LEARNING_CERTS = [
+    {
+        title: 'React, NodeJS, Express & MongoDB - The MERN Fullstack Guide',
+        image: "/learning_certs/mern.jpg"
+    },
+    {
+        title: 'React - The Complete Guide 2025',
+        image: "/learning_certs/react.jpg"
+    }
+]
+
 export const TECH_STACK = [
     {
         title: "Next.js",

@@ -11,7 +11,7 @@ function AboutMe() {
         <div className="grid">
           <Connect />
         </div>
-         <div className="grid">
+        <div className="grid">
           <TechStacks />
         </div>
       </div>

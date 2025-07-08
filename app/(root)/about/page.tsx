@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { LEARNING_CERTS } from "@/config";
+import { Card } from "@/components/ui/card";
 
 const AboutPage = async () => {
   return (
@@ -50,13 +52,33 @@ const AboutPage = async () => {
           </p>
         </section>
 
-        {/* Fun Section */}
         <section className="space-y-4">
           <h2 className="text-2xl font-semibold">Beyond Code</h2>
           <p>
             Outside of coding, I enjoy watching anime, TV series and playing
             both mobile and PC games with my friends.
           </p>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Learning Certificates</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            {LEARNING_CERTS.map((cert) => (
+              <Card className="h-full group p-0" key={cert.title}>
+                <div className="p-4">
+                  <div className="overflow-hidden">
+                    <Image
+                      alt={cert.title}
+                      width={1280}
+                      height={832}
+                      quality={100}
+                      src={cert.image}
+                    />
+                  </div>
+                </div>
+              </Card>
+            ))}
+          </div>
         </section>
       </div>
     </MaxWidthWrapper>
