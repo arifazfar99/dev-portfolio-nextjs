@@ -66,6 +66,14 @@ export const PROJECTS: Project[] = [
         github: 'https://github.com/arifazfar99/track-my-gaji',
         featured: true
     },
+    {
+        title: "Anime Search App",
+        description: "A web application that allows users to search for anime titles, view detailed information such as synopsis, genre, and rating, and explore trending series.",
+        href: "https://anime-search-app-pi.vercel.app/",
+        tags: ["React.js", "Vite", "Tailwind CSS", "Typescript", "Vercel"],
+        github: 'https://github.com/arifazfar99/anime-search-app',
+        featured: true
+    },
 ]
 
 export const LEARNING_CERTS = [
